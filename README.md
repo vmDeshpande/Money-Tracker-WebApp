@@ -2,16 +2,6 @@
 
 A simple web application for managing expenses and income. Built using HTML, CSS, Node.js, and MongoDB.
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Requirements](#requirements)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Introduction
 
 This project is a basic money tracker app that allows users to log their financial transactions, categorize them as income or expenses, and view a summary of their financial activities.
