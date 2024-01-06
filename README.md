@@ -1,27 +1,49 @@
-# Money Tracker App
+# Money Tracker WebApp
 
-A simple web application for managing expenses and income. Built using HTML, CSS, Node.js, and MongoDB.
-
-## Introduction
-
-This project is a basic money tracker app that allows users to log their financial transactions, categorize them as income or expenses, and view a summary of their financial activities.
+This is a simple money tracker web application built using HTML, CSS, Node.js, and MongoDB.
 
 ## Features
 
-- Add transactions with description, amount, and type (income or expense).
+- Log financial transactions with a description, amount, and type (income or expense).
 - View a list of transactions with details.
 - Store transaction data in a MongoDB database.
 - Simple and responsive user interface.
 
-## Requirements
+## Prerequisites
 
-- Node.js
-- MongoDB
+Before you begin, ensure you have met the following requirements:
 
-## Getting Started
+- Node.js installed
+- MongoDB server running
 
-1. Clone the repository:
+## Clone the repository
+```
+git clone https://github.com/vmDeshpande/money-tracker-app
+```
+## Move into the project directory
+```
+cd money-tracker-app
+```
+## Install required dependencies
+```
+npm install
+```
 
-   ```bash
-   git clone https://github.com/your-username/money-tracker-app.git
-   cd money-tracker-app
+## Set up MongoDB (Make sure MongoDB is installed and running)
+Update the MongoDB connection string in server.js with your own connection details.
+
+## Run the server
+```
+npm start
+```
+
+## Print instructions for the user
+Your project is set up. Follow the instructions below:
+
+1. Open a new terminal and start your MongoDB server.
+2. Update the MongoDB connection string in 'server.js'.
+3. Run the server: 'node server.js'
+4. Access your website at http://localhost:3000
+5. Open views/index.html and start building your HTML and JavaScript content.
+
+Happy coding!
